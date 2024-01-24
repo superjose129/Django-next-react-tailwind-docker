@@ -1,0 +1,9 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer utilities {
+    .button {
+        @apply bg-blue-500 hover:bg-blue-800 text-white py-2 px-4 rounded items-center m-auto hover:shadow-lg transition ease-in duration-200 focus:outline-none cursor-pointer sm:text-xl border border-blue-500 hover:border-blue-800;
+    }
+}
